@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from djando.http import httpResponse
+from django.http import HttpResponse
 
 def home(request):
-    return httpResponse('Welcome to bolg home page')
+    return HttpResponse('Welcome to bolg home page')
 
 # Create your views here.
